@@ -93,7 +93,7 @@
 .auth-wrapper {
   background: rgb(0 150 136);
   height: 100vh;
-  background-image: -webkit-linear-gradient(top left, var(--cyan), #08671e);
+  background-image: -webkit-linear-gradient(top left, var(--cyan), #1d55be);
 }
 
 .auth-wrapper .authentication-form .form-group .form-control {

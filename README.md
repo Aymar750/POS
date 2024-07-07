@@ -5,7 +5,7 @@ Radmin Laravel Starter revolutionizes website management with advanced user and 
 1. Create a database in phpmyadmin. Open `.env` file and change following credentials
 ```
 DB_HOST=127.0.0.1
-DB_DATABASE=your_database_name
+DB_DATABASE=pos
 DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
 ```

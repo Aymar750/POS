@@ -1,16 +1,16 @@
-@extends('layouts.main') 
+@extends('layouts.main')
 @section('title', 'Clear Cache')
 @section('content')
-    
+
     <div class="container-fluid">
-    	<div class="page-header">
+        <div class="page-header">
             <div class="row align-items-end">
                 <div class="col-lg-8">
                     <div class="page-header-title">
                         <i class="ik ik-battery-charging bg-green"></i>
                         <div class="d-inline">
-                            <h5>{{ __('Clear Cache')}}</h5>
-                            <span>{{ __('Create new user, assign roles & permissions')}}</span>
+                            <h5>{{ __('Clear Cache') }}</h5>
+                            <span>{{ __('Create new user, assign roles & permissions') }}</span>
                         </div>
                     </div>
                 </div>
@@ -18,10 +18,10 @@
                     <nav class="breadcrumb-container" aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="{{url('dashboard')}}"><i class="ik ik-home"></i></a>
+                                <a href="{{ url('dashboard') }}"><i class="ik ik-home"></i></a>
                             </li>
                             <li class="breadcrumb-item">
-                                <a href="#">{{ __('Clear Cache')}}</a>
+                                <a href="#">{{ __('Clear Cache') }}</a>
                             </li>
                         </ol>
                     </nav>

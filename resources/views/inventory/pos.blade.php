@@ -159,6 +159,7 @@ shuffle($products);
 			</div>
 		</div>
 	</div>
+	
 	<!-- initiate scripts-->
 	<script src="{{ asset('all.js') }}"></script>
 	<script src="{{ asset('dist/js/theme.js') }}"></script>

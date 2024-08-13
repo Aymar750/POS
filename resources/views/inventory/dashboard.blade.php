@@ -19,7 +19,7 @@
                         <div class="row align-items-center">
                             <div class="col-8">
                                 <h4 class="mb-0">{{ __('2,563')}}</h4>
-                                <p class="mb-0">{{ __('Products')}}</p>
+                                <p class="mb-0">{{ __('Produits')}}</p>
                             </div>
                             <div class="col-4 text-right">
                                 <i class="fas fa-cube f-30"></i>
@@ -35,7 +35,7 @@
                         <div class="row align-items-center">
                             <div class="col-8">
                                 <h4 class="mb-0">{{ __('3,612')}}</h4>
-                                <p class="mb-0">{{ __('Orders')}}</p>
+                                <p class="mb-0">{{ __('Commandes')}}</p>
                             </div>
                             <div class="col-4 text-right">
                                 <i class="ik ik-shopping-cart f-30"></i>
@@ -51,7 +51,7 @@
                         <div class="row align-items-center">
                             <div class="col-8">
                                 <h4 class="mb-0">{{ __('865')}}</h4>
-                                <p class="mb-0">{{ __('Customers')}}</p>
+                                <p class="mb-0">{{ __('Clients')}}</p>
                             </div>
                             <div class="col-4 text-right">
                                 <i class="ik ik-user f-30"></i>
@@ -67,7 +67,7 @@
                         <div class="row align-items-center">
                             <div class="col-8">
                                 <h4 class="mb-0">{{ __('35,500')}}</h4>
-                                <p class="mb-0">{{ __('Sales')}}</p>
+                                <p class="mb-0">{{ __('ventes')}}</p>
                             </div>
                             <div class="col-4 text-right">
                                 <i class="ik f-30">৳</i>
@@ -82,7 +82,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="card sale-card">
                     <div class="card-header">
-                        <h3>{{ __('Realtime Profit')}}</h3>
+                        <h3>{{ __('Gain en temps reel')}}</h3>
                     </div>
                     <div class="card-block text-center">
                         <div id="realtime-profit"></div>
@@ -92,7 +92,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="card sale-card">
                     <div class="card-header">
-                        <h3>{{ __('Sales Difference')}}</h3>
+                        <h3>{{ __('Differences de ventes')}}</h3>
                     </div>
                     <div class="card-block text-center">
                         <div id="sale-diff" class="chart-shadow"></div>
@@ -104,11 +104,11 @@
                     <div class="card-block pb-0">
                         <div class="row mb-50">
                             <div class="col">
-                                <h6 class="mb-5">{{ __('Sales In July')}}</h6>
+                                <h6 class="mb-5">{{ __('Ventes de Juin')}}</h6>
                                 <h5 class="mb-0  fw-700">{{ __('$2665.00')}}</h5>
                             </div>
                             <div class="col-auto text-center">
-                                <p class="mb-5">{{ __('Direct Sale')}}</p>
+                                <p class="mb-5">{{ __('Vente aujourdhui')}}</p>
                                 <h6 class="mb-0">{{ __('$1768')}}</h6>
                             </div>
 
@@ -128,7 +128,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="card new-cust-card">
                     <div class="card-header">
-                        <h3>{{ __('New Customers')}}</h3>
+                        <h3>{{ __('Nouveau clients')}}</h3>
                         <div class="card-header-right">
                             <ul class="list-unstyled card-option">
                                 <li><i class="ik ik-chevron-left action-toggle"></i></li>
@@ -176,7 +176,7 @@
             <div class="col-xl-8 col-md-6">
                 <div class="card table-card">
                     <div class="card-header">
-                        <h3>{{ __('New Products')}}</h3>
+                        <h3>{{ __('Nouveau Produits')}}</h3>
                         <div class="card-header-right">
                             <ul class="list-unstyled card-option">
                                 <li><i class="ik ik-chevron-left action-toggle"></i></li>
@@ -190,10 +190,10 @@
                             <table class="table table-hover mb-0">
                                 <thead>
                                     <tr>
-                                        <th>{{ __('Product Name')}}</th>
+                                        <th>{{ __('Nom du produit')}}</th>
                                         <th>{{ __('Image')}}</th>
-                                        <th>{{ __('Status')}}</th>
-                                        <th>{{ __('Price')}}</th>
+                                        <th>{{ __('Statut')}}</th>
+                                        <th>{{ __('Prix')}}</th>
                                         <th>{{ __('Action')}}</th>
                                     </tr>
                                 </thead>
@@ -258,7 +258,7 @@
             <div class="col-md-12">
                 <div class="card table-card">
                     <div class="card-header">
-                        <h3>{{ __('Application Sales')}}</h3>
+                        <h3>{{ __('Ventes')}}</h3>
                         <div class="card-header-right">
                             <ul class="list-unstyled card-option">
                                 <li><i class="ik ik-chevron-left action-toggle"></i></li>

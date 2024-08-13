@@ -19,7 +19,7 @@
             <nav id="main-menu-navigation" class="navigation-main">
                 <div class="nav-item {{ $segment2 == 'inventory' ? 'active' : '' }}">
                     <a href="{{ url('/inventory') }}"><i
-                            class="ik ik-bar-chart-2"></i><span>{{ __('Dashboard') }}</span></a>
+                            class="ik ik-bar-chart-2"></i><span>{{ __('Tableau de Bord') }}</span></a>
                 </div>
 
                 <!-- start inventory pages -->
@@ -28,12 +28,12 @@
                             class=" badge badge-success badge-right">{{ __('New') }}</span></a>
                 </div>
                 <div class="nav-item {{ $segment1 == 'products' ? 'active open' : '' }} has-sub">
-                    <a href="#"><i class="ik ik-headphones"></i><span>{{ __('Products') }}</span></a>
+                    <a href="#"><i class="ik ik-headphones"></i><span>{{ __('Produits') }}</span></a>
                     <div class="submenu-content">
                         <a href="{{ url('products/create') }}"
-                            class="menu-item {{ $segment1 == 'products' && $segment2 == 'create' ? 'active' : '' }}">{{ __('Add Product') }}</a>
+                            class="menu-item {{ $segment1 == 'products' && $segment2 == 'create' ? 'active' : '' }}">{{ __('Ajout Produit') }}</a>
                         <a href="{{ url('products') }}"
-                            class="menu-item {{ $segment1 == 'products' && $segment2 == '' ? 'active' : '' }}">{{ __('List Producs') }}</a>
+                            class="menu-item {{ $segment1 == 'products' && $segment2 == '' ? 'active' : '' }}">{{ __('Liste Produits') }}</a>
                     </div>
                 </div>
                 <div class="nav-item {{ $segment1 == 'categories' ? 'active' : '' }}">
@@ -41,31 +41,31 @@
                             class="ik ik-list"></i><span>{{ __('Categories') }}</span></a>
                 </div>
                 <div class="nav-item {{ $segment1 == 'sales' ? 'active open' : '' }} has-sub">
-                    <a href="#"><i class="ik ik-shopping-cart"></i><span>{{ __('Sales') }}</span></a>
+                    <a href="#"><i class="ik ik-shopping-cart"></i><span>{{ __('Ventes') }}</span></a>
                     <div class="submenu-content">
                         <a href="{{ url('sales/create') }}"
-                            class="menu-item {{ $segment1 == 'sales' && $segment2 == 'create' ? 'active' : '' }}">{{ __('Add Sale') }}</a>
+                            class="menu-item {{ $segment1 == 'sales' && $segment2 == 'create' ? 'active' : '' }}">{{ __('Ajouter ventes') }}</a>
                         <a href="{{ url('sales') }}"
-                            class="menu-item {{ $segment1 == 'sales' && $segment2 == '' ? 'active' : '' }}">{{ __('List Sales') }}</a>
+                            class="menu-item {{ $segment1 == 'sales' && $segment2 == '' ? 'active' : '' }}">{{ __('Listes Ventes') }}</a>
                     </div>
                 </div>
                 <div class="nav-item {{ $segment1 == 'purchases' ? 'active open' : '' }} has-sub">
-                    <a href="#"><i class="ik ik-truck"></i><span>{{ __('Purchases') }}</span></a>
+                    <a href="#"><i class="ik ik-truck"></i><span>{{ __('Achats') }}</span></a>
                     <div class="submenu-content">
                         <a href="{{ url('purchases/create') }}"
-                            class="menu-item {{ $segment1 == 'purchases' && $segment2 == 'create' ? 'active' : '' }}">{{ __('Add Purchase') }}</a>
+                            class="menu-item {{ $segment1 == 'purchases' && $segment2 == 'create' ? 'active' : '' }}">{{ __('Ajout achat') }}</a>
                         <a href="{{ url('purchases') }}"
-                            class="menu-item {{ $segment1 == 'purchases' && $segment2 == '' ? 'active' : '' }}">{{ __('List Purchases') }}</a>
+                            class="menu-item {{ $segment1 == 'purchases' && $segment2 == '' ? 'active' : '' }}">{{ __('Listes achats') }}</a>
                     </div>
                 </div>
                 <div
                     class="nav-item {{ $segment1 == 'suppliers' || $segment1 == 'customers' ? 'active open' : '' }} has-sub">
-                    <a href="#"><i class="ik ik-users"></i><span>{{ __('People') }}</span></a>
+                    <a href="#"><i class="ik ik-users"></i><span>{{ __('Personnes') }}</span></a>
                     <div class="submenu-content">
                         <a href="{{ url('suppliers') }}"
-                            class="menu-item {{ $segment1 == 'suppliers' ? 'active' : '' }}">{{ __('Suppliers') }}</a>
+                            class="menu-item {{ $segment1 == 'suppliers' ? 'active' : '' }}">{{ __('Fournisseurs') }}</a>
                         <a href="{{ url('customers') }}"
-                            class="menu-item {{ $segment1 == 'customers' ? 'active' : '' }}">{{ __('Customers') }}</a>
+                            class="menu-item {{ $segment1 == 'customers' ? 'active' : '' }}">{{ __('Clients') }}</a>
                     </div>
                 </div>
                 <!-- end inventory pages -->

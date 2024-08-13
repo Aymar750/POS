@@ -49,10 +49,10 @@
                     </div>
                 </div>
 
-
+{{-- 
                 <!-- Include demo pages inside sidebar start-->
                 @include('pages.sidebar-menu')
-                <!-- Include demo pages inside sidebar end-->
+                <!-- Include demo pages inside sidebar end--> --}}
 
             </nav>   
                 

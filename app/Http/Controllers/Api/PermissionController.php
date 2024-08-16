@@ -38,7 +38,7 @@ class PermissionController extends BaseController
 
         if ($permission) {
             return $this->successResponse([
-                'message' => 'Permission created succesfully!',
+                'message' => 'Permission créer avec succès !',
             ]);
         }
 
@@ -60,7 +60,7 @@ class PermissionController extends BaseController
             return $this->successResponse($permission);
         }
 
-        return $this->failedResponse('Not found!');
+        return $this->failedResponse('Non trouvé !');
     }
 
     /**
@@ -76,10 +76,10 @@ class PermissionController extends BaseController
             $permission->delete();
 
             return $this->successResponse([
-                'message' => 'Permission has been deleted',
+                'message' => 'Permission supprimé avec succès !',
             ]);
         }
 
-        return $this->failedResponse('Not found!');
+        return $this->failedResponse('Non trouvé !');
     }
 }

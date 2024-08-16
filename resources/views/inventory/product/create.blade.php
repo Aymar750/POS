@@ -49,13 +49,13 @@
                                         <textarea class="form-control html-editor h-205" rows="10"></textarea>
 
                                     </div>
-
+                                    {{--
                                     <div class="form-group">
                                         <label>Images du produit</label>
                                         <div class="input-images" data-input-name="product-images"
                                             data-label="Faites glisser et déposez les images des produits ici ou cliquez pour parcourir">
                                         </div>
-                                    </div>
+                                    </div> --}}
 
                                 </div>
                                 <div class="col-sm-3">
@@ -190,9 +190,10 @@
                                         <label for="input">Product Tag</label>
                                         <input type="text" id="tags" class="form-control h-100" value="">
                                     </div> --}}
-                                    <div class="form-group text-right">
-                                        <button type="submit" class="btn btn-primary">Enregistrer</button>
-                                    </div>
+
+                                </div>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn btn-primary">Enregistrer</button>
                                 </div>
                             </div>
 

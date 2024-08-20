@@ -40,7 +40,7 @@ class BaseController extends Controller
         $content = [
             'status' => 'failed',
             'data' => $data,
-            'message' => $message ?? 'Something went wrong!',
+            'message' => $message ?? 'Erreur, traitement non effectif!',
         ];
 
         return response()->json($content, $code, $headers);

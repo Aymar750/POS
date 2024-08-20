@@ -45,7 +45,7 @@ class RolesController extends BaseController
             }
 
             return $this->successResponse([
-                'message' => 'Role created succesfully!',
+                'message' => 'Rôle créer avec succès !',
             ]);
         }
 
@@ -67,7 +67,7 @@ class RolesController extends BaseController
             ]);
         }
 
-        return $this->failedResponse('Not found!');
+        return $this->failedResponse('Non trouvé!');
     }
 
     /**
@@ -83,11 +83,11 @@ class RolesController extends BaseController
             $role->delete();
 
             return $this->successResponse([
-                'message' => 'Role has been deleted',
+                'message' => 'Role supprimé avec succès !',
             ]);
         }
 
-        return $this->failedResponse('Not found!');
+        return $this->failedResponse('Non trouvé !');
     }
 
     /**
@@ -100,7 +100,7 @@ class RolesController extends BaseController
     public function changePermissions($id, PermissionChangeRequest $request): JsonResponse
     {
         $request->validate([
-            'permissions' => 'required',
+            'permissions' => 'obligatoire',
         ]);
 
         if ($role = Role::find($id)) {
@@ -108,10 +108,10 @@ class RolesController extends BaseController
             $role->syncPermissions($request->permissions);
 
             return $this->successResponse([
-                'message' => 'Permission changed successfully!',
+                'message' => 'Permission changeé avec succès !',
             ]);
         }
 
-        return $this->failedResponse('Not found!');
+        return $this->failedResponse('Non trouvé !');
     }
 }

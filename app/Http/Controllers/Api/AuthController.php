@@ -49,7 +49,7 @@ class AuthController extends BaseController
                 ]);
 
             return $this->successResponse([
-                'message' => 'Password has been changed',
+                'message' => 'Mot de passe changé avec auccès !',
             ]);
         }
 
@@ -66,7 +66,7 @@ class AuthController extends BaseController
                 ->first();
 
             if ($check) {
-                return $this->failedResponse('The email address is already used!');
+                return $this->failedResponse('Adresse e-mail est déjà utilisée!');
             }
         }
 
@@ -78,7 +78,7 @@ class AuthController extends BaseController
         );
 
         return $this->successResponse([
-            'message' => 'Profile updated successfully!',
+            'message' => 'Profil mis à jour avec succès!',
         ]);
     }
 
@@ -88,7 +88,7 @@ class AuthController extends BaseController
         $user->revoke();
 
         return $this->successResponse([
-            'message' => 'Logged out succesfully!',
+            'message' => 'Déconnecté avec succès !',
         ]);
     }
 }

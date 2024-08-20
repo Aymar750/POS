@@ -63,7 +63,7 @@ class UserController extends BaseController
             return $this->successResponse($user);
         }
 
-        return $this->failedResponse('Not found!');
+        return $this->failedResponse('Indisponible !');
     }
 
     /**
@@ -79,11 +79,11 @@ class UserController extends BaseController
             $user->delete();
 
             return $this->successResponse([
-                'message' => 'User has been deleted',
+                'message' => 'Utilisateur supprimé avec succès !',
             ]);
         }
 
-        return $this->failedResponse('Not found!');
+        return $this->failedResponse('Non trouvé !');
     }
 
     /**
@@ -100,7 +100,7 @@ class UserController extends BaseController
             $user->syncRoles($request->roles);
 
             return $this->successResponse([
-                'message' => 'Users Role has been updated!',
+                'message' => 'Utilisateur supprimé avec succès !',
             ]);
         }
 
